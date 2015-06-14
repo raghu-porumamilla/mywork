@@ -6,11 +6,31 @@
       </serviceProvider>
    </serviceProviders>
    <serviceInstances>
+   
       <serviceInstance name="credstore" provider="credstore.provider">
          <property name="location" value="./"/>
       </serviceInstance>
    </serviceInstances>
    <jpsContexts default="Application1">
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
       <jpsContext name="Application1">
          <serviceInstanceRef ref="credstore"/>
       </jpsContext>
